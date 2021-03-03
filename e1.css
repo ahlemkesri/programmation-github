@@ -77,3 +77,12 @@ font-family: fontAwesome;
         color: #e3e3e3;
         font-size: 16px;
     }
+    .search-box  input::placeholder{
+        color: #afafaf;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .search-icon.active:before:before {
+        content:'\f002';
+    }
